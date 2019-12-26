@@ -1,0 +1,4 @@
+name: DREBlocks
+version: 0.1
+main: dre.dreblocks.main
+api-version: 1.13

@@ -1,0 +1,21 @@
+blocks:
+  stone_block:
+    name: Test
+    type: BROWN_MUSHROOM_BLOCK
+    facing:
+      up: false
+      down: false
+      north: false
+      east: false
+      south: false
+      west: true
+  test_block:
+    name: Test2
+    type: RED_MUSHROOM_BLOCK
+    facing:
+      up: true
+      down: false
+      north: false
+      east: false
+      south: false
+      west: true
