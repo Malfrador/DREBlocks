@@ -15,7 +15,7 @@ public class main extends JavaPlugin {
         getLogger().info("Loading custom Blocks...");
         int i = 0;
         getLogger().info(config.getString("blocks"));
-        getLogger().info("Block:   UP | DOWN  | NORTH | EAST  | SOUTH | WEST ");
+        getLogger().info("Block:   UP | DOWN  | NORTH | EAST  | SOUTH | WEST | Block Type");
         for(String blockName : config.getConfigurationSection("blocks").getKeys(false)) {
             String blockPath = "blocks." + blockName;
             String name = config.getString(blockPath + ".name");
